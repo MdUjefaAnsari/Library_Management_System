@@ -100,10 +100,13 @@ img{
   height: 150px;
 }
 
-input[type="radio"].checked{
-background-color: green;
+input[type="radio"]{
 border-color: aqua;
 }
 input[type="radio"]{
+  font-size: 20px;
+}
+.bookR{
+  background-color: red;
   font-size: 30px;
 }
