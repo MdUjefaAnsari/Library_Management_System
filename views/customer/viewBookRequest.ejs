@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="d-flex justify-content-between flex-md-nowrap align-items-center pt-3 pb-2 mb-4 border-bottom">
         <h1 class="h2">
-            <%= customer.title %> <%= customer.requester %>
+             <%= customer.requester %>
         </h1>
         <div class="btn-toolbar mb-2 mb-md-0">
             <div class="btn-group me-2">
@@ -21,7 +21,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/bookRequest">Books Issued Dashboard</a></li>
-                        <li class="breadcrumb-item active"><%= customer.title %></li>
+                        <li class="breadcrumb-item active"><%= customer.requester %></li>
                     </ol>
                 </nav>
             </div>
@@ -38,7 +38,7 @@
             <div class="row">
                 <div class="col" style="max-width: 140px;"><b>Book Name:</b></div>
                 <div class="col">
-                    <%= customer.title %> <%= customer.requester %>
+                    <%= customer.title %>
                 </div>
             </div>
         </li>

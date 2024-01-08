@@ -20,7 +20,7 @@ app.use(methodOverride('_method'));
 
 //static file
 app.use(express.static('public'));
-app.use(express.static(path.join(__dirname, 'public')));
+
 
 //express session
 app.use(
