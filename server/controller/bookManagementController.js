@@ -29,7 +29,7 @@ exports.addBooks=async(req,res)=>{
         title: 'Add New Books',
         description:'Library Management System'
     }
-    res.render('addbook',locals);
+    res.render('/addbook',locals);
 }
 
 //create new customer
