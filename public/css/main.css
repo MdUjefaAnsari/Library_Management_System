@@ -102,14 +102,15 @@ img{
 }
 
 input[type="radio"]{
-border-color: aqua;
+border-color: red;
 }
 input[type="radio"]{
-  font-size: 20px;
+  font-size: 22px;
 }
 .bookR{
-  background-color: red;
-  font-size: 30px;
+  /* background-color: red; */
+  color: aqua;
+  font-size: 20px;
 }
 
 
